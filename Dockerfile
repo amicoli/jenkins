@@ -17,4 +17,4 @@ VOLUME /data
 ADD master.sh /master.sh
 RUN chmod +x /master.sh
 # Run Command
-CMD /master.sh
+# CMD /master.sh
