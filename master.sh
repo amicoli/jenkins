@@ -1,1 +1,1 @@
-ping -c 10 8.8.8.8
+curl -I http://www.google.com
