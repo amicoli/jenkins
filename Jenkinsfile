@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'curl www.google.com'
+                sh '/master.sh'
             }
         }
     }
