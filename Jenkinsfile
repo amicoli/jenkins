@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh '/master.sh'
+                sh 'ping -c 8.8.8.8'
             }
         }
     }
