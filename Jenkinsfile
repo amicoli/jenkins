@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'ping -c 8.8.8.8'
+                sh 'curl www.google.com'
             }
         }
     }
