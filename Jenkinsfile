@@ -1,5 +1,8 @@
 pipeline {
-    agent { dockerfile true }
+    agent { 
+        dockerfile true
+        label "hpc-prod-tools-builder"
+        }
     stages {
         stage('Test') {
             steps {
